@@ -173,6 +173,9 @@ module.exports = ({ strapi }) => ({
             quantity: 1,
           },
         ],
+        automatic_tax: {
+          enabled: true,
+        },
         mode: paymentMode,
         payment_method_types: [...PaymentMethods],
         customer_email: userEmail,
